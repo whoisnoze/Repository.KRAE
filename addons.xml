@@ -364,8 +364,9 @@
         </assets>
     </extension>
     </addon>
-
-    <addon id="script.video.F4mProxy" name="F4mProxy" version="4.0.9b" provider-name="Joel e Tiago">
+            name="F4mProxy" 
+            version="4.0.9b" 
+            provider-name="Joel e Tiago">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -749,8 +750,6 @@
                     <icon>resources/images/icon.png</icon>      
                 </assets>    
             <news>[B]3.0.0[/B] (2023-10-16)
-
-
     </news>  </extension>  
     </addon>
 
