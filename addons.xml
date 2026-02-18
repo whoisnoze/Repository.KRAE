@@ -364,6 +364,8 @@
         </assets>
     </extension>
     </addon>
+    
+    <addon id="script.video.F4mProxy" 
             name="F4mProxy" 
             version="4.0.9b" 
             provider-name="Joel e Tiago">
