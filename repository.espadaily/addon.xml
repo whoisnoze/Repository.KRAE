@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.espadaily" name="EspaDaily Repository" version="1.0.2" provider-name="RubénSDFA1labernt">
+    <extension point="xbmc.addon.repository" name="EspaDaily Repository">
+        <dir>
+            <info compressed="false">https://fullstackcurso.github.io/espadaily/addons.xml</info>
+            <checksum>https://fullstackcurso.github.io/espadaily/addons.xml.md5</checksum>
+            <datadir zip="true">https://fullstackcurso.github.io/espadaily/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Repositorio de EspaDaily</summary>
+        <description lang="es">Repositorio oficial para instalar y actualizar el addon EspaDaily.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
