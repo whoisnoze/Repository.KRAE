@@ -1,0 +1,3 @@
+Version 4.0.0 (Junio, 2025)
+- Initial releasef for kodi 21
+
