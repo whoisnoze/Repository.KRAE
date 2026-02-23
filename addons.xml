@@ -836,50 +836,6 @@
         </extension>
     </addon>
 
-    <addon id="repository.magellan" name="[COLOR red]Mage[/COLOR] [COLOR black]llan[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.0.0" provider-name="Magellan">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-                
-        </requires>
-        
-        
-        <extension point="xbmc.addon.repository" name="[COLOR red]Magellan [COLOR red]Repositorio[/COLOR]">
-            
-            <dir>
-            <info compressed="false">https://github.com/euro2000/magellan.github.io/raw/main/addons.xml</info>
-            <checksum>https://github.com/euro2000/magellan.github.io/raw/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/euro2000/magellan.github.io/raw/main</datadir>
-            <hashes>false</hashes>
-            </dir>
-        
-        <dir minversion="16.0.0" maxversion="18.9.0">
-            <info compressed="false">https://github.com/euro2000/magellan.github.io/raw/main/leia/addons.xml</info>
-            <checksum>https://github.com/euro2000/magellan.github.io/raw/main/leia/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/euro2000/magellan.github.io/raw/main/leia</datadir>
-            <hashes>false</hashes>
-            </dir>
-        
-        <dir minversion="18.9.1">
-            <info compressed="false">https://github.com/euro2000/magellan.github.io/raw/main/matrix/addons.xml</info>
-            <checksum>https://github.com/euro2000/magellan.github.io/raw/main/matrix/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/euro2000/magellan.github.io/raw/main/matrix</datadir>
-            <hashes>false</hashes>
-            </dir>
-            
-        </extension>
-        
-        <extension point="xbmc.addon.metadata">
-            <summary>repositorio magellan</summary>
-            <description>repositorio oficial magellan - Proibido reproducao sem previa autorizacao</description>
-            <disclaimer></disclaimer>
-            <platform>all</platform>
-            <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
-
     <addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.3" provider-name="gujal">
         <extension point="xbmc.addon.repository" name="Gujal Addons Repository">
             <dir>
@@ -1590,7 +1546,5 @@
             <description lang="it_IT">Elimina il disordine con una skin minimale progettata per dare il massimo impatto alle artwork per i tuoi film, serie e musica preferiti. Copacetic è un lavoro d&apos;amore che dura da più di cinque anni. Spero che vi piaccia.</description>
             <description lang="zh_CN">使用简洁的外观清除杂乱，旨在为您和为您喜爱的电影、剧集和音乐的艺术作品带来最大的影响。 Copacetic 是五年多来的心血结晶。我希望你喜欢它。</description>
         </extension>
-    </addon>
-
-    
+    </addon>    
 </addons>
