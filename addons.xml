@@ -20,7 +20,7 @@
         </extension>
     </addon>
 
-        <addon id="plugin.video.lachabola" name="La Chabola" version="1.0.0" provider-name="whoisnoze">
+        <addon id="plugin.video.lachabola" name="La Chabola" version="1.0.1" provider-name="whoisnoze">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.horus" optional="true"/>
