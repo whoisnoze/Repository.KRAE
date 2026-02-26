@@ -19,6 +19,26 @@
             </assets>
         </extension>
     </addon>
+
+        <addon id="plugin.video.lachabola" name="La Chabola" version="1.0.0" provider-name="whoisnoze">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.horus" optional="true"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="es">Listado de canales Acestream para La Chabola</summary>
+            <description lang="es">Este addon es una herramienta de listado de enlaces que se encuentran disponibles públicamente en internet. El autor no aloja, ni transmite, ni distribuye ningún contenido audiovisual. El funcionamiento de los enlaces depende de fuentes externas y del motor Acestream (Horus).</description>
+            <disclaimer lang="es">El usuario es responsable del uso de este addon. Los contenidos se recopilan de la red y pueden variar sin previo aviso.</disclaimer>
+            <language>es</language>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
     
     <addon id="plugin.video.tacones" name="[COLOR red]TACONES[/COLOR]" version="3.5.6" provider-name="La Mala de la Novela">
         <requires>
